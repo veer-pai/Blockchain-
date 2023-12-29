@@ -1,0 +1,7 @@
+Lexical scope :
+    JavaScript uses the Lexical Scope to resolve the variable names when we create functions inside another
+    function. The lexical means that JavaScript determines the parent scope of a function by looking at where
+    we created the function and not where we invoked it. But JavaScript allows passing a function around, which
+    means we may invoke them in a different scope than the original scope. Hence losing the connection to its
+    parent scope. JavaScript solves this problem by creating Closures. A Closure contains function along with
+    reference to its parent scope allowing the function to stay connected with its parent scope.

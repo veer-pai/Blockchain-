@@ -1,0 +1,7 @@
+Closure :
+    Whenever you create a function within another function, then the inner function
+    is closure. This closure is usuallyreturned so you can use the outer function’s variables at a later time.
+    
+Scope :
+    Whereas a scope in JavaScript defines what variables you have access to. There are two kinds
+    of scope – global scope and local scope.
