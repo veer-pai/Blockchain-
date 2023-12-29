@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h2 id="apply">Apply CSS through JavaScript !!</h2>
+        <button onclick="change()">Change CSS</button>
+    </div>
+
+    <script>
+        function change() {
+            let change = document.getElementById("apply");
+            change.style.color = "red";
+            change.style.textTransform = "uppercase";
+            change.style.fontWeight = "bold";
+        }
+    </script>
+</body>
+
+</html>

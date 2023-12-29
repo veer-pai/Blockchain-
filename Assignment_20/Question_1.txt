@@ -1,0 +1,16 @@
+How does async/await help with performance and scalability ?
+
+Async/await will only improve performance if it allows the machine to do additional work.
+Await operator and async keyword.
+Blocking on async code can cause deadlocks.
+Concurrent calls.
+Returning a Task without await.
+Simple consecutive calls.
+Try/Catch/Finally.
+Web.
+
+
+What is the benefit of using async await?
+The main benefits of asynchronous programming using async / await include the following:
+Increase the performance and responsiveness of your application, particularly when you have long-running
+operations that do not require to block the execution.

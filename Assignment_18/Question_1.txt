@@ -1,0 +1,11 @@
+Difference between Generator and function
+
+A Generator function returns us an iterator, which can be used to stop the function in the middle,
+do something, and then resume it whenever. A normal function starts executing and returns when the
+function completes, but a Generator function can be stopped any number of times and resumed later
+
+
+Difference between Generator and Iterators
+
+An iterator is typically something that has a next method to get the next element from a stream.
+A generator is an iterator that is tied to a function

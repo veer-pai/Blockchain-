@@ -1,0 +1,4 @@
+Is filter a Higher Order function in Javascript ? If yes, why
+
+Arrays provide a number of useful higher-order methods. You can use forEach to loop over the elements
+in an array. The filter method returns a new array containing only the elements that pass the predicate function.

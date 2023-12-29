@@ -1,0 +1,25 @@
+1. forEach loop
+
+2. for-in loop
+
+3. for-of loop
+
+4. C Style for loop
+
+5. While loop
+
+6. Do-while loop
+
+7. Map
+
+8. filter
+
+9. reduce
+
+10. join
+
+11. ES2018 await
+
+12. ES2019 flat
+
+13. ES2019 flatMap

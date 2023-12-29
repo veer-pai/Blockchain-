@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="form1" onsubmit="getFormvalue()">
+        Name : <input type="text" id="name" />
+        <br />
+        <br />
+        <span>Output : <span id="op"></span></span>
+        <br />
+        <br />
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        function getFormvalue() {
+            event.preventDefault()
+            let val = document.getElementById("name").value;
+            let output = document.getElementById("op").innerHTML = val;
+        }
+    </script>
+</body>
+
+</html>

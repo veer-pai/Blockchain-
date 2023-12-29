@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label>Input One : </label>
+    <input placeholder="enter first input ..." type="number" id="inp1" />
+    <br />
+    <br />
+    <label>Input Two : </label>
+    <input placeholder="enter second input ..." type="number" id="inp2" />
+    <br />
+    <br />
+    <div>
+        <label>Outcome : <label id="outcome"></label></label>
+    </div>
+    <br />
+    <br />
+    <button onclick="add()">Addition</button><br />
+    <br />
+    <br />
+    <button onclick="sub()">Subtraction</button><br />
+    <br />
+    <br />
+    <button onclick="mult()">Multiplication</button><br />
+    <br />
+    <br />
+    <button onclick="div()">Divisiom</button><br />
+
+
+    <script>
+        function add() {
+            let inp1 = document.getElementById("inp1").value;
+            let inp2 = document.getElementById("inp2").value;
+            let ans = Number(inp1) + Number(inp2);
+            let oc = document.getElementById("outcome").innerHTML = ans;
+        }
+        function sub() {
+            let inp1 = document.getElementById("inp1").value;
+            let inp2 = document.getElementById("inp2").value;
+            let ans = Number(inp1) - Number(inp2);
+            let oc = document.getElementById("outcome").innerHTML = ans;
+        }
+        function mult() {
+            let inp1 = document.getElementById("inp1").value;
+            let inp2 = document.getElementById("inp2").value;
+            let ans = Number(inp1) * Number(inp2);
+            let oc = document.getElementById("outcome").innerHTML = ans;
+        }
+        function div() {
+            let inp1 = document.getElementById("inp1").value;
+            let inp2 = document.getElementById("inp2").value;
+            let ans = Number(inp1) / Number(inp2);
+            let oc = document.getElementById("outcome").innerHTML = ans;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="divtag">
+        <h1>To be removed the below line</h1>
+        <p id="ptag">I am leaving, Bye !!</p>
+    </div>
+    <button onclick="rem()">Remove</button>
+
+    <script>
+        function rem() {
+            let parent = document.getElementById("divtag");
+            let tag = document.getElementById("ptag");
+            parent.removeChild(tag);
+            console.log(parent);
+        }
+    </script>
+</body>
+
+</html>

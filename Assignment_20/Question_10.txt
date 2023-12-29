@@ -1,0 +1,23 @@
+In which scenarios would you use synchronous code instead of asynchronous code?
+
+➤ Simplicity
+
+Synchronous programming is well-supported amongst all programming languages. 
+
+Developers do not have to worry about whether it is possible to code asynchronous applications as this
+is the default. 
+
+Plus, writing synchronous programs is objectively easier than writing asynchronous programs. 
+
+In utilizing a blocking I/O architecture you can save time in the software development process and run
+tests with fewer complications. 
+
+➤ Marketing Potential 
+
+Search engines find it easier to crawl for web pages that make use of traditional synchronous architecture. 
+
+For marketers who depend on search engine optimization (SEO) to build their reputation and brand awareness,
+this is an appreciable advantage. 
+
+The more people who see your website via Google or Bing, the more visitors you’ll have on your webpage.
+Naturally, this will positively affect your return on investment (ROI).

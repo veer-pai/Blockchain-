@@ -1,0 +1,6 @@
+What is the best way to avoid deadlocks when using async/await?
+
+The solution is simple, use async all the way down. Never block on tasks yourself. Another solution
+is to call “ConfigureAwait(false)” on the task of the underlying method, to prevent the continuation
+of the task on the original context captured. If you really cannot use async all the way, then you could
+use “Task.

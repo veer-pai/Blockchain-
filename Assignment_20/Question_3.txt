@@ -1,0 +1,7 @@
+Give 3 real world examples where async/await has been used ?
+
+1. Fetching data from API
+
+2. Rendering all components of a page almost at same time
+
+3. real time video streaming
