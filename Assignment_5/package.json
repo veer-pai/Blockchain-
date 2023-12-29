@@ -1,0 +1,14 @@
+{
+  "name": "volume",
+  "version": "1.0.0",
+  "description": "Get volume of the geometrical shapes",
+  "main": "Volume.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Souvik Khan",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
