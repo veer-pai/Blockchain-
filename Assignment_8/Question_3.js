@@ -1,0 +1,11 @@
+let a = Math.floor(Math.random() * 10);
+let b = Math.floor(Math.random() * 10);
+let c = Math.floor(Math.random() * 10);
+let d = Math.floor(Math.random() * 10);
+let s = new Set();
+s.add(a);
+s.add(b);
+s.add(c);
+s.add(d);
+console.log(s);
+console.log(s.has(8));

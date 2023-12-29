@@ -1,0 +1,2 @@
+Can we put duplicate values in the set object
+answer : NO
